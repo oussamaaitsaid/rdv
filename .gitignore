@@ -1,0 +1,52 @@
+# ========================
+# Virtual Environment
+# ========================
+env/
+venv/
+.env
+.venv
+
+# ========================
+# Django
+# ========================
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+
+# ========================
+# Sensitive Settings
+# ========================
+gestion_rdv/settings.py
+
+# ========================
+# Media & Static files
+# ========================
+media/
+staticfiles/
+static/
+
+# ========================
+# Migrations (optional)
+# ========================
+# Uncomment if you don't want to track migrations
+# */migrations/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# PyCharm
+# ========================
+.idea/
